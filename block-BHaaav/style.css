@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+}
+nav{
+    margin-top: 1%;
+}
+.nav{
+    margin: 5px;
+    font-size: small
+}
+.first{
+    background-color: black;
+    color: aliceblue
+   }
+   h1{
+    margin-left: 170px;
+    font-size: 30px;
+margin-top: 5%;   
+display: inline-block;
+}
+p{
+    margin-left: 170px;
+margin-top: 2%;   
+display: inline-block;  
+color: grey;
+margin-bottom: 5%;
+}
+h2{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 2%;
+    color: aliceblue;
+    font-size: 20px;
+}
+.second{
+    background-color: cornflowerblue;
+}
+img{
+   display: block;
+    margin-left: 15%;
+    margin-top: 2%;
+border-radius: 50%;
+}
+.third{
+    background-color: rgb(89, 89, 204);
+}
+.fourth{
+    background-color: darkblue;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    display:block;
+}
+span{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 1.5%;
+    color: grey;
+    
+}
